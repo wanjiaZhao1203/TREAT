@@ -1,27 +1,34 @@
 # TREAT
 [NeurIPS 2024] Physics-Informed Regularization for Domain-Agnostic Dynamical System Modeling 
-
-## Data Generation
+## setup dataset
+### Simulate Data
 To generate the simulated datasets, go to the data directory first
 ```
 cd data
 ```
 where we have a separate script for generating each dataset. Hyperparameters used for datasets evaluated in the paper are saved as default values for each argument.
-To generate the *simple spring* dataset, run
+##### Spring Datasets (suffix=simple,damped,forced)
+```python
+python generate_dataset_suffix.py
 ```
-python generate_dataset_simple.py
-```
-To generate the *forced spring* dataset, run
-```
-python generate_dataset_external.py
-```
-To generate the *damped spring* dataset, run
-```
-python generate_dataset_damped.py
-```
-To generate the *pendulum* dataset, run
-```
+An example data of simple spring with 5000/2000 for train/test is in `data/example_data` folder. 
+##### Pendulum Datasets 
+```python
 python generate_dataset_pendulum.py
+```
+##### Attractor Datasets 
+```python
+python generate_dataset_attractor.py
+```
+
+### Motion Capture dataset
+The raw data were obtained via [CMU Motion Capture Database](http://mocap.cs.cmu.edu/) 
+The walk and dance dataset are provided in `data/motion_walk` and `data/motion_dance` folder. 
+
+You can also download .asf and .amc. from the website and use the following command to get other trajectory:
+```python
+python motion_preprocess.py
+python motion_get_data.py
 ```
 
 ## Training 
