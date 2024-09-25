@@ -9,7 +9,7 @@ cd data
 where we have a separate script for generating each dataset. Hyperparameters used for datasets evaluated in the paper are saved as default values for each argument.
 To generate the *simple spring* dataset, run
 ```
-python generate_dataset.py
+python generate_dataset_simple.py
 ```
 To generate the *forced spring* dataset, run
 ```
