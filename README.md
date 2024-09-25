@@ -6,7 +6,7 @@ To generate the simulated datasets, go to the data directory first
 ```
 cd data
 ```
-where we have a separate script for generating each dataset. Hyperparameters used for datasets evaluated in the paper are saved as default values for each argument.
+where we have a separate script fo generating each dataset. Hyperparameters used for datasets evaluated in the paper are saved as default values for each argument. 
 ##### Spring Datasets (suffix=simple,damped,forced)
 ```python
 python generate_dataset_suffix.py
