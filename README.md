@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/wanjiaZhao1203/TREAT/blob/main/LICENSE)
 
 
-[**[Project Page]**](https://wanjiazhao1203.github.io/TREAT_page/) [**[Paper]**](https://arxiv.org/pdf/2310.06427) 
+[**[Project Page]**](https://treat-ode.github.io/) [**[Paper]**](https://arxiv.org/pdf/2310.06427) 
 
 
 ## setup dataset
