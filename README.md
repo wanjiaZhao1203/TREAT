@@ -81,3 +81,15 @@ To train LatentODE, go to latent_ode folder and then run
 python run_model.py --data simple_spring --n-balls 5 --latent-ode --train_cut 20000 --test_cut 5000 --sample-percent-train 0.6 --sample-percent-train 0.6 -l 15 -u 1000 -g 50 --rec-layers 4 --gen-layers 2 --rec-dim 100 --lr 1e-3
 ```
 
+## Citation
+
+Please consider citing the following paper when using our code for your application.
+
+```bibtex
+@article{huang2023tango,
+      title={TANGO: Time-Reversal Latent GraphODE for Multi-Agent Dynamical Systems},
+      author={Huang, Zijie and Zhao, Wanjia and Gao, Jingdong and Hu, Ziniu and Luo, Xiao and Cao, Yadi and Chen, Yuanzhou and Sun, Yizhou and Wang, Wei},
+      journal={arXiv preprint arXiv:2310.06427},
+      year={2023}
+    }
+```
