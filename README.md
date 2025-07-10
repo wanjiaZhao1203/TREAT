@@ -92,4 +92,10 @@ Please consider citing the following paper when using our code for your applicat
       journal={arXiv preprint arXiv:2310.06427},
       year={2023}
     }
+@article{huang2024physics,
+  title={Physics-informed regularization for domain-agnostic dynamical system modeling},
+  author={Huang, Zijie and Zhao, Wanjia and Gao, Jingdong and Hu, Ziniu and Luo, Xiao and Cao, Yadi and Chen, Yuanzhou and Sun, Yizhou and Wang, Wei},
+  journal={arXiv preprint arXiv:2410.06366},
+  year={2024}
+}
 ```
